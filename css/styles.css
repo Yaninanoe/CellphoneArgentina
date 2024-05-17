@@ -20,6 +20,7 @@
       
       header img {
         width: 300px;
+        margin-right: 100px;
       }
     .car-compras {
         background-color: #232323;
@@ -47,7 +48,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        height: 15vh;
+        height: 18vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -67,7 +68,7 @@
       .navbar {
         background-color: #4927a0;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 18px;
       }
       
       .navbar-toggler {
@@ -87,9 +88,8 @@
       .navbar-nav .nav-link.active {
         color: #fff;
       }
-      .navbar-nav {
-        margin-left: 300px;
-      }
+      
+     
 
       .padre-fotos{
         display: flex;
@@ -100,8 +100,8 @@
     }
     .celulares {
         background-color: rgb(215, 227, 231);
-        width: 500px;
-        height: 500px;
+        width: 450px;
+        height: 450px;
         margin-bottom: 20px;
         text-align: center;
         margin-right: 20px;
@@ -109,8 +109,8 @@
     }
     
     .celulares img {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
         display: block;
         margin: 0 auto;
         padding-top: 30px;
@@ -157,11 +157,11 @@
     }
     .redes-sociales {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
       
-      position: fixed;
+      
       bottom: 20%;
       right: 30px;
   }
@@ -212,13 +212,18 @@ font-weight: bold;
   color: white;
 }
 .mapa {
-  background-color: rgb(58, 82, 242);
+  
   display: flex;
   width: 50vw;
   margin-left: 30px;
   margin-bottom: 10vh;
 }
-.pagina-youtube h3 {
-color: rgb(79, 79, 213);
-font-size: x-large;
+
+.px{
+  color: #fff;
+  text-decoration: none;
+}
+.youtube{
+  width: 30px;
+  margin-bottom: 50px;
 }
